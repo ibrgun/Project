@@ -1,0 +1,275 @@
+.access{
+    padding: 0 80px 164px 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.access>.text_side{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    max-width: 490px;
+}
+
+.access>.text_side>.heading{
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 46.96px;
+    color: #07043B;
+}
+
+.access>.text_side > .text{
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 24px;
+    letter-spacing: 0.53px;
+    color: #07043B;
+}
+.email_button{
+    display: flex;
+    gap: 16px;
+}
+.email_button > input{
+    width: 320px;
+    height: 45px;
+}
+
+.email_button > input::placeholder{
+    color: #C2C2C2;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19.07px;
+    letter-spacing: 0.44px;
+}
+
+.email_button > button{
+    cursor: pointer;
+    color: #FFFFFF;
+    width: 200px;
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16.44px;
+    background-color: #2F65F8;
+    border-radius: 3.13px;
+    border: solid #2F65F8 1px;
+}
+
+
+
+.productive{
+    padding: 178px 80px 107px 80px;
+    background-image: url("/img/background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+    gap: 140px;
+}
+
+.productive> .text_side{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.productive> .text_side> .heading{
+    color:#07043B;
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 46.96px;
+}
+
+.productive>.text_side > .text1, .text2{
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.53px;
+    color: #07043B;
+}
+
+.productive>.text_side >.link{
+    width: max-content;
+    border-bottom: solid 1px #3DA08F;
+}
+.productive>.text_side >.link:hover{
+    border-bottom: solid 1px #71DFCC;
+}
+
+.link> a{
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: #3DA08F;
+    text-decoration: none;
+    line-height: 21.79px;
+}
+
+.link> a:hover{
+    color: #71DFCC;
+}
+.link> a>p{
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+
+.link> a>img{
+    margin-bottom: 3px;
+}
+.comment_custom{
+    background-color: #FFFFFF;
+    padding: 30px 33px;
+    width: 281px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin-top: 25px;
+}
+.quotation_mark{
+    font-family: "Nunito Sans", sans-serif;
+    font-weight: 400;
+    font-size: 45px;
+    line-height: 19px;
+    color: #07043B;
+}
+
+.comment_custom > .text{
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 23px;
+    color: #07043B;
+}
+
+.custom_info{
+    display: flex;
+    gap: 8px;
+}
+
+.name_surname{
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    font-size: 11px;
+    line-height: 14.98pxpx;
+    color: #07043B;
+}
+
+.duty{
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 8px;
+    line-height: 15px;
+    color: #07043B;
+}
+
+@media only screen and (max-width: 1280px){
+    .access{
+        padding: 0 10px 100px 10px;
+    }
+    .access>.text_side{
+        max-width: 390px;
+    }
+    .access > .pic_side >img{
+        max-width: 583px;
+    }
+    .productive{
+        padding: 93px 10px 81px 10px;
+        gap: 85px;
+    }
+}
+@media only screen and (max-width: 1024px){
+    .access{
+        padding: 98px 27px 164px 27px;
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 55px;
+        align-items: center;
+    }
+    .access>.text_side{
+        text-align: center;
+    }
+    .access>.text_side>.heading{
+        font-size: 24px;
+        line-height: 36px;
+    }
+    .access>.text_side > .text{
+        font-size: 14px;
+        line-height: 21px;
+    }
+    .email_button{
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+    }
+    .email_button > input{
+        width: 100%;
+        height: 40px;
+    }
+    .email_button > button{
+        width: 102%;
+        height: 40px;
+    }
+    .pic_side{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .access > .pic_side >img{
+        width: 100%;
+    }
+    .productive{
+        background-size: contain;
+        padding: 93px 27px 81px 27px;
+        flex-direction: column-reverse;
+        gap: 87px;
+    }
+    .productive> .text_side> .heading{
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .productive>.text_side > .text1, .text2{
+        font-size: 14px;
+        line-height: 21px;
+        color: #615F7E;
+    }
+    .link> a{
+        font-size: 12px;
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        line-height: 16.34px;
+    }
+    .comment_custom{
+        padding: 26px 12.84px 18.62px 25.96px;
+        width: max-content;
+        gap: 16px;
+        margin-top: 25px;
+    }
+    .quotation_mark{
+        font-size: 35.39px;
+    }
+    .comment_custom > .text{
+        width: 246px;
+        font-size: 10px;
+        line-height: 18px;
+    }
+    .name_surname{
+        font-size: 9px;
+        line-height: 12.26px;
+    }
+    .duty{
+        font-size: 6px;
+        line-height: 11.8px;
+    }
+}
