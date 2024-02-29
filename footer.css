@@ -50,7 +50,8 @@ nav a {
     color: #fff;
     text-align: center;
     padding: 3rem;
-    margin-top: 5.5rem;
+    bottom: 0;
+    margin-block-start: auto;
 }
 .access__container {
     display: flex;
@@ -112,7 +113,6 @@ nav a {
 .footer {
     background-color: #090546; 
     padding: 3rem;
-    margin-top: auto;
 }
 .footer__info {
     display: flex;
